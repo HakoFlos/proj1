@@ -30,7 +30,7 @@ new-page: false
 @browse_videos
 new-page: false
 on-arrival: time += 1
-go-to: arrival if time = 5; peace
+go-to: @arrival if time = 5; @peace
 subtitle: It's not like you have anything better to do.
 on-arrival: studied = 1 if time = 5
 
@@ -41,21 +41,21 @@ You watch some educational videos on Youtube. They are about physics.
 @browse_songs
 new-page: false
 on-arrival: time += 1
-go-to: arrival if time = 5; peace
+go-to: @arrival if time = 5; @peace
 
 You listen to music.
 
 @browse_games
 new-page: false
 on-arrival: time += 1
-go-to: arrival if time = 5; peace
+go-to: @arrival if time = 5; @peace
 
 You open itch.io, but there's not really anything interesting that's new. That's not new, either. *(Get it?)*
 
 @browse_random
 new-page: false
 on-arrival: time += 1
-go-to: arrival if time = 5; peace
+go-to: @arrival if time = 5; @peace
 
 to be added.
 

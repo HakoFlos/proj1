@@ -14,7 +14,7 @@ Contains family conflicts. May be offensive to those who have children.
 - @root: Return
 
 @peace
-new-page: true
+new-page: false
 
 [? if time = 0 : You are browsing your phone late at night, in your bedroom. The door is closed. ?]
 

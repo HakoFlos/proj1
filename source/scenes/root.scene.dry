@@ -34,7 +34,7 @@ new-page: false
 - @browse_videos: Studying, perhaps? 
 - @browse_songs: Listen to music
 - @browse_games: Play some games
-- @browse_random: Do something random 
+- @browse_messages: Check your messages 
 
 
 @browse_videos
@@ -64,12 +64,14 @@ go-to: @argument if time = 5; @peace
 
 You open itch.io, but there's not really anything interesting that's new. That's not new, either. *(Get it?)*
 
-@browse_random
+@browse_messages
 new-page: false
 on-arrival: time += 1
 go-to: @argument if time = 5; @peace
 
-to be added.
+You check social media. No new messages.
+
+# add random later
 
 @argument
 new-page: true

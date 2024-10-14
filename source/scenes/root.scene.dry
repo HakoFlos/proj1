@@ -5,7 +5,8 @@ new-page: true
 
 @peace
 new-page: false
-# Peace, for now
+
+= Peace, for now
 
 [? if time = 0 : You are browsing your phone late at night, in your bedroom. The door is closed. ?]
 
@@ -53,15 +54,12 @@ You watch some educational videos on Youtube. They are about physics.
 new-page: false
 on-arrival: time += 1
 go-to: @peace
-subtitle: It's not Spotify cuz you're not in America
 
 You listen to music.
 
 @browse_games
 new-page: false
 on-arrival: time += 1
-go-to: @peace
-subtitle: Your favourite pastime
 
 You open itch.io, but there's not really anything interesting that's new. That's not new, either. *(Get it?)*
 
@@ -69,7 +67,6 @@ You open itch.io, but there's not really anything interesting that's new. That's
 new-page: false
 on-arrival: time += 1
 go-to: @peace
-subtitle: Scratch that, *this* is your favourite pastime
 
 You open WeChat, and scroll aimlessly. There are no new messages.
 
@@ -78,8 +75,7 @@ new-page: false
 on-arrival: time += 1
 go-to: @peace
 
-*Hehehe.*
+to be added.
 
-# write it later. I'll surely love this part. 
 
 

@@ -39,7 +39,7 @@ new-page: false
 new-page: false
 subtitle: It's not like you have anything better to do.
 on-arrival: time += 1
-go-to: @argument if time = 3; @peace
+go-to: @argument if (time = 3) or (time = 4); @peace
 on-departure: {! if(Q['time'] == 3){
     Q['studied'] = 1; 
     }!}

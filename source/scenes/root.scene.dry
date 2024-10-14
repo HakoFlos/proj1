@@ -143,6 +143,7 @@ It's only something you have to endure, before your true life begins.
 Tonight the air smells of flowers and hope.
 
 @phone
+new-page: false
 
 You continue to scroll mindlessly. You think of school, of home, of your friends, of your parents, of the past, 
 and of the future. You recall a distant past in which they were tender towards you. 
@@ -150,6 +151,7 @@ and of the future. You recall a distant past in which they were tender towards y
 -@truth: That's not what happened
 
 @truth
+new-page: false
 game-over: true
 
 No, it was not like that. At eight she'd already beat you for refusing to play the piano. And your father would
@@ -163,6 +165,7 @@ you get to get out of here, you'll never return. Not once.
 You hope it's what they'd wanted. It's not like you have any other choice.
 
 @window
+new-page: false
 game-over: true
 
 You look out the window, into the dense night. You'd always liked the night - it makes you feel safe, and the  

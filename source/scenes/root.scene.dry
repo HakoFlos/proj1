@@ -40,7 +40,7 @@ new-page: false
 go-to: @argument if time = 3; @peace
 subtitle: It's not like you have anything better to do.
 on-arrival: time += 1
-on-departure: {! if(Q['time'] == 5){
+on-departure: {! if(Q['time'] == 3){
     Q['studied'] = 1; 
     }!}
 

@@ -19,11 +19,9 @@ new-page: false
 [? if time = 0 : You are browsing your phone late at night, in your bedroom. The door is closed. ?]
 
 [? if time = 0 : It's now 23:00. ?]
-[? if time = 1 : It's now 23:10. ?]
-[? if time = 2 : It's now 23:20. ?]
-[? if time = 3 : It's now 23:30. ?]
-[? if time = 4 : It's now 23:40. ?]
-[? if time = 5 : It's now 23:50. ?]
+[? if time = 1 : It's now 23:15. ?]
+[? if time = 2 : It's now 23:30. ?]
+[? if time = 3 : It's now 23:45. ?]
 
 [? if time > 0 : Look at something else? ?]
 
@@ -39,7 +37,7 @@ new-page: false
 
 @browse_videos
 new-page: false
-go-to: @argument if time = 5; @peace
+go-to: @argument if time = 3; @peace
 subtitle: It's not like you have anything better to do.
 on-arrival: time += 1
 on-departure: {! if(Q['time'] == 5){
@@ -53,21 +51,21 @@ You watch some educational videos on Youtube. They are about physics.
 @browse_songs
 new-page: false
 on-arrival: time += 1
-go-to: @argument if time = 5; @peace
+go-to: @argument if time = 3; @peace
 
 You listen to music.
 
 @browse_games
 new-page: false
 on-arrival: time += 1
-go-to: @argument if time = 5; @peace
+go-to: @argument if time = 3; @peace
 
 You open itch.io, but there's not really anything interesting that's new. That's not new, either. *(Get it?)*
 
 @browse_messages
 new-page: false
 on-arrival: time += 1
-go-to: @argument if time = 5; @peace
+go-to: @argument if time = 3; @peace
 
 You check social media. No new messages.
 

@@ -1,10 +1,20 @@
 title: Root
 new-page: true
 
-- @peace : Start
+= A Late Night Argument
+
+- @peace: Start
+- @warnings: Content warnings
+
+@warnings
+new-page: true
+
+Contains family conflicts. May be offensive to those who have children. 
+
+- @peace: Return
 
 @peace
-new-page: false
+new-page: true
 
 [? if time = 0 : You are browsing your phone late at night, in your bedroom. The door is closed. ?]
 

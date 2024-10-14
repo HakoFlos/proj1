@@ -37,9 +37,9 @@ new-page: false
 
 @browse_videos
 new-page: false
-go-to: @argument if time = 3; @peace
 subtitle: It's not like you have anything better to do.
 on-arrival: time += 1
+go-to: @argument if time = 3; @peace
 on-departure: {! if(Q['time'] == 3){
     Q['studied'] = 1; 
     }!}

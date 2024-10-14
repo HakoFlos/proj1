@@ -31,7 +31,9 @@ new-page: false
 new-page: false
 go-to: @arrival if time = 5; @peace
 subtitle: It's not like you have anything better to do.
-on-arrival: time += 1; studied = 1 if time = 5
+on-arrival: time += 1; {!if(Q[time] == 5){
+    Q[studied] = 1;
+    }!}
 
 You watch some educational videos on Youtube. They are about physics.
 

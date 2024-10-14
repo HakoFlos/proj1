@@ -29,10 +29,9 @@ new-page: false
 
 @browse_videos
 new-page: false
-on-arrival: time += 1
 go-to: @arrival if time = 5; @peace
 subtitle: It's not like you have anything better to do.
-on-arrival: studied = 1 if time = 5
+on-arrival: time += 1; studied = 1 if time = 5
 
 You watch some educational videos on Youtube. They are about physics.
 

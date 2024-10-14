@@ -31,8 +31,9 @@ new-page: false
 new-page: false
 go-to: @argument if time = 5; @peace
 subtitle: It's not like you have anything better to do.
-on-arrival: time += 1; {!if(Q[time] == 5){
-    Q[studied] = 1;
+on-arrival: time += 1
+on-departure: {! if(Q['time'] == 5){
+    Q['studied'] = 1; 
     }!}
 
 You watch some educational videos on Youtube. They are about physics.

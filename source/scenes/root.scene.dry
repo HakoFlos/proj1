@@ -68,7 +68,7 @@ A loud knock on the door. It's your mom.
 
 "Why are you still playing, not going to bed? "
 
-You look at her undecisively, your grip instinctively tightening on your phone. 
+You look at her indecisively, your grip instinctively tightening on your phone. 
 
 - @studying: You were studying, not playing
 - @lying: Say that you're going to sleep in a few minutes
@@ -82,14 +82,14 @@ You turn the screen towards her and raise it high.
 
 "I was watching physics videos, not playing. There's a test tomorrow. "
 
-"Well, you should have done it earlier! Don't study in the middle of night. "
+"Well, you should have done it earlier! Don't study in the middle of the night. "
 
 - @silence: You don't know what to say
 
 @lying
 new-page: false
 
-"I'm going, in a few minutes", you say. Your mother appears impatient.
+"I'm going, in a few minutes," you say. Your mother appears impatient.
 
 "All day you're just scrolling around, never talking to parents, can't you be like a normal person for one time?"
 
@@ -98,12 +98,12 @@ new-page: false
 @arguing
 new-page: false
 
-"It's not your affair, the time I go to sleep ", you state blandly. It's not like you have the energy to start 
+"It's not your affair, the time I go to sleep," you state blandly. It's not like you have the energy to start 
 another fight. 
 
-"Besides, I close my door and use airpods, so it's not I'm preventing *you* from going to sleep. "
+"Besides, I close my door and use airpods, so it's not I'm preventing *you* from going to sleep."
 
-"You know us as parents can never sleep well when you're still up", she reprimands.
+"You know us as parents can never sleep well when you're still up," she reprimands.
 
 - @silence: You don't know what to say
 
@@ -112,8 +112,8 @@ new-page: false
 
 She takes one long look at you, then goes out, closing the door behind her. 
 
-Well, at least there's still *some* degree of politeness. If it was two years ago she wouldn't even knock your 
-door before coming inside. Now that's you think of it, she would not even let you close the door. Your grandma
+Well, at least there's still *some* degree of politeness. If it had been two years ago, she wouldn't have knocked  
+before coming inside. Now that you think of it, she wouldn’t even let you close the door back then. Your grandma 
 says it's for ventilation. 
 
 You remain silent for a while. 
@@ -126,12 +126,12 @@ You remain silent for a while.
 new-page: false
 game-over: true
 
-So you turn off your smartphone, and bury your head in the sheets. After some time, you close the light too. 
+So you turn off your smartphone, and bury your head in the sheets. After some time, you turn off the light too. 
 
 It'll be some time until you can be free, but you'll make it, eventually.
 
 Your parents don't abuse you, you just can't get along with them well. It's normal, really. Most people don't get 
-along with other people neither. Especially if they have to live together for more than ten years.
+along with other people either. Especially if they have to live together for more than ten years.
 
 It's only something you have to endure, before your true life begins. 
 
@@ -154,7 +154,7 @@ come home all drunk and blabbering. You shiver at the thought of him calling you
 
 You are filled with repulsion. 
 
-Of course you'll pay them back your tuition and cover the expanses when they are sick and all that. But once
+Of course you'll pay them back your tuition and cover the expenses when they are sick and all that. But once
 you get to get out of here, you'll never return. Not once. 
 
 You hope it's what they'd wanted. It's not like you have any other choice.
@@ -165,9 +165,9 @@ game-over: true
 
 You look out the window, into the dense night. You'd always liked the night - it makes you feel safe, and the  
 clouds are so beautiful now they're dyed with a rich deep purple. You'd like to get a taste of these clouds. 
-They must taste dark cholocate and coconut. (Although you don't know exactly what *that* is.)
+They must taste like dark chocolate and coconut. (Although you don't know exactly what *that* is.)
 
-You don't draw the curtains. And you leave it open until the next morning, when light shines through your windows, 
+You don't draw the curtains. And you leave them open until the next morning, when light shines through your windows, 
 and you can breathe in the tea-olive scent of early autumn.
 
 

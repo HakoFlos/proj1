@@ -6,8 +6,6 @@ new-page: true
 @peace
 new-page: false
 
-= Peace, for now
-
 [? if time = 0 : You are browsing your phone late at night, in your bedroom. The door is closed. ?]
 
 [? if time = 0 : It's now 23:00. ?]

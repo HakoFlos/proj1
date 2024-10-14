@@ -21,11 +21,10 @@ new-page: false
 
 @browse
 
--@browse_videos: Studying, perhaps? 
--@browse_songs: Listen to music
--@browse_games: Play some games
--@browse_messages: Check social media
--@browse_random: Do something random 
+- @browse_videos: Studying, perhaps? 
+- @browse_songs: Listen to music
+- @browse_games: Play some games
+- @browse_random: Do something random 
 
 
 @browse_videos
@@ -53,13 +52,6 @@ go-to: arrival if time = 5; peace
 
 You open itch.io, but there's not really anything interesting that's new. That's not new, either. *(Get it?)*
 
-@browse_messages
-new-page: false
-on-arrival: time += 1
-go-to: arrival if time = 5; peace
-
-You open WeChat, and scroll aimlessly. There are no new messages.
-
 @browse_random
 new-page: false
 on-arrival: time += 1
@@ -76,9 +68,9 @@ A loud knock on the door. It's your mom.
 
 You look at her undecisively, your grip instinctively tightening on your phone. 
 
--@studying: You were studying, not playing
--@lying: Say that you're going to sleep in a few minutes
--@arguing: Argue that it's not her affair
+- @studying: You were studying, not playing
+- @lying: Say that you're going to sleep in a few minutes
+- @arguing: Argue that it's not her affair
 
 @studying
 new-page: false
@@ -90,7 +82,7 @@ You turn the screen towards her and raise it high.
 
 "Well, you should have done it earlier! Don't study in the middle of night. "
 
--@silence: You don't know what to say
+- @silence: You don't know what to say
 
 @lying
 new-page: false
@@ -99,7 +91,7 @@ new-page: false
 
 "All day you're just scrolling around, never talking to parents, can't you be like a normal person for one time?"
 
--@silence: You don't know what to say
+- @silence: You don't know what to say
 
 @arguing
 new-page: false
@@ -111,7 +103,7 @@ another fight.
 
 "You know us as parents can never sleep well when you're still up", she reprimands.
 
--@silence: You don't know what to say
+- @silence: You don't know what to say
 
 @silence
 new-page: false
@@ -124,9 +116,9 @@ says it's for ventilation.
 
 You remain silent for a while. 
 
--@sleep: Go to sleep
--@phone: Return to your phone
--@window: Look out the window
+- @sleep: Go to sleep
+- @phone: Return to your phone
+- @window: Look out the window
 
 @sleep
 new-page: false
@@ -149,7 +141,7 @@ new-page: false
 You continue to scroll mindlessly. You think of school, of home, of your friends, of your parents, of the past, 
 and of the future. You recall a distant past in which they were tender towards you. 
 
--@truth: That's not what happened
+- @truth: That's not what happened
 
 @truth
 new-page: false
